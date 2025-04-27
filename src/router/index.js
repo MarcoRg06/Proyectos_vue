@@ -12,6 +12,7 @@ import Ciclos from "../Pages/Ciclos.vue";
 import Ciclos2 from "../Pages/Ciclos2.vue";
 import Padre from "../Pages/Props/Padre.vue";
 import Padre2 from "../Pages/Props/Padre2.vue";
+import Principal from "../Pages/PaginaWeb/Principal.vue";
 
 
 const routes = [
@@ -64,6 +65,11 @@ const routes = [
     path: "/padre2",
     name: "padre2",
     component: Padre2,
+  },
+  {
+    path: "/principal",
+    name: "principal",
+    component: Principal,
   }
 ];
 const router = createRouter({

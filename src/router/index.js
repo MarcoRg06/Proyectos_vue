@@ -8,6 +8,9 @@ import Horario from "../Pages/Horario.vue";
 import Horario2 from "../Pages/Horario2.vue";
 import Eventos from "../Pages/Eventos.vue";
 import Eventos2 from "../Pages/Eventos2.vue";
+import Ciclos from "../Pages/Ciclos.vue";
+import Ciclos2 from "../Pages/Ciclos2.vue";
+
 
 const routes = [
   {
@@ -39,6 +42,16 @@ const routes = [
     path: "/eventos2",
     name: "eventos2",
     component: Eventos2,
+  },
+  {
+    path: "/ciclos1",
+    name: "ciclos1",
+    component: Ciclos,
+  },
+  {
+    path: "/ciclos2",
+    name: "ciclos2",
+    component: Ciclos2,
   }
 ];
 const router = createRouter({

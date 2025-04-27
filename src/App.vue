@@ -46,6 +46,16 @@
                                     <li><router-link class="dropdown-item" to="/eventos2">Eventos 2</router-link></li>
                                 </ul>
                             </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Ciclos
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><router-link class="dropdown-item" to="/ciclos1">Ciclos 1</router-link></li>
+                                    <li><router-link class="dropdown-item" to="/ciclos2">ciclo 2</router-link></li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
                 </div>

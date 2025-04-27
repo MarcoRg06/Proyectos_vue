@@ -56,6 +56,16 @@
                                     <li><router-link class="dropdown-item" to="/ciclos2">ciclo 2</router-link></li>
                                 </ul>
                             </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Props
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><router-link class="dropdown-item" to="/padre">Padre 1</router-link></li>
+                                    <li><router-link class="dropdown-item" to="/padre2">Padre 2</router-link></li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
                 </div>

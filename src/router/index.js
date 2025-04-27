@@ -10,6 +10,8 @@ import Eventos from "../Pages/Eventos.vue";
 import Eventos2 from "../Pages/Eventos2.vue";
 import Ciclos from "../Pages/Ciclos.vue";
 import Ciclos2 from "../Pages/Ciclos2.vue";
+import Padre from "../Pages/Props/Padre.vue";
+import Padre2 from "../Pages/Props/Padre2.vue";
 
 
 const routes = [
@@ -52,6 +54,16 @@ const routes = [
     path: "/ciclos2",
     name: "ciclos2",
     component: Ciclos2,
+  },
+  {
+    path: "/padre",
+    name: "padre",
+    component: Padre,
+  },
+  {
+    path: "/padre2",
+    name: "padre2",
+    component: Padre2,
   }
 ];
 const router = createRouter({

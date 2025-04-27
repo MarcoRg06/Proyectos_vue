@@ -6,6 +6,8 @@ import calculadora2 from "../Pages/Calculadora2.vue";
 import Calculadora from "../Pages/Calculadora.vue";
 import Horario from "../Pages/Horario.vue";
 import Horario2 from "../Pages/Horario2.vue";
+import Eventos from "../Pages/Eventos.vue";
+import Eventos2 from "../Pages/Eventos2.vue";
 
 const routes = [
   {
@@ -28,6 +30,16 @@ const routes = [
     name: "horario",
     component: Horario,
   },
+  {
+    path: "/eventos1",
+    name: "eventos1",
+    component: Eventos,
+  },
+  {
+    path: "/eventos2",
+    name: "eventos2",
+    component: Eventos2,
+  }
 ];
 const router = createRouter({
   history: createWebHashHistory(import.meta.env.BASE_URL),

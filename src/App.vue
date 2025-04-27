@@ -16,11 +16,12 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">
-                                    Home
+                                    Calculadoras
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><router-link class="dropdown-item" to="/">Home</router-link>
-                                    </li>
+                                    <li><router-link class="dropdown-item" to="/calculadora">Calculadora V1</router-link></li>
+                                    <li><router-link class="dropdown-item" to="/calculadora2">Calculadora V2</router-link></li>
+
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">

@@ -1,18 +1,21 @@
 import { createRouter, createWebHashHistory } from "vue-router";
 //agregando pagina de la aplicacion 
-import Home from "../Pages/Home.vue";
-import About from "../Pages/About.vue";
+// import Home from "../Pages/Home.vue";
+// import About from "../Pages/About.vue";
+import calculadora2 from "../Pages/Calculadora2.vue";
+import Calculadora from "../Pages/Calculadora.vue";
+
 
 const routes = [
 {
-    path: "/",
-    name: "home",
-    component: Home,
+    path: "/calculadora",
+    name: "calculadora",
+    component: Calculadora,
 },
 {
-    path: "/about",
-    name: "about",
-    component: About,
+    path: "/calculadora2",
+    name: "calculadora2",
+    component: calculadora2,
 }
 ]
 const router = createRouter({
